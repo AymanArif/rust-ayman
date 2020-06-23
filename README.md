@@ -1,2 +1,2 @@
 # rust-ayman
-Personal Rust Leanings
+Personal Rust Learnings
