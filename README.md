@@ -12,7 +12,6 @@
   * [101 - Intro to Traits](#101---intro-to-traits)
   * [201 - Trait Bounds](#201---trait-bounds)
   * [301 - Trait Objects](#301---trait-objects)
-  * [Code](#code)
 
 
 ## 101 - Intro to Traits
