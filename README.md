@@ -1,8 +1,18 @@
 # Rust talks
 
+# Table of Contents
+
+
+- [Traits and You: A Deep Dive — Nell Shamrell-Harrington](#traits-and-you-a-deep-dive--nell-shamrell-harrington)
 
 
 # [Traits and You: A Deep Dive — Nell Shamrell-Harrington](https://www.youtube.com/watch?v=grU-4u0Okto) 
+
+
+  * [101 - Intro to Traits](#101---intro-to-traits)
+  * [201 - Trait Bounds](#201---trait-bounds)
+  * [301 - Trait Objects](#301---trait-objects)
+  * [Code](#code)
 
 
 ## 101 - Intro to Traits
@@ -18,18 +28,19 @@ struct Dwarf {
 }
 struct Elf {
    name: String
-}
-``` 
+} 
 
 // Create defintion for your struct
-
 let lotr_dwarf = Dwarf { name: String::from("NauAlMuq") };
+```
 
 - Trait
 
+```rust
 pub trait Armour {
    fn armour_cost(&self) -> u8;
 }
+```
 
 - Now implement Trait
 
@@ -110,10 +121,11 @@ Rust:
 Cannot add data to trait object
 
 
-## Code
+### Code
 
 Ring is god. 
 
+```
 struct Invisble {
 
 }
@@ -154,7 +166,7 @@ let spell_book = SpellBook {
 		],
 		};
 spell_book.run(); 
-
+```
 
 Trait Objects are great for heteregenous collections.
 
